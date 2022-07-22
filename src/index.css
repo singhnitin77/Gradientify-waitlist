@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Menu toggle animation */
-/* mobile menu toggle button */
-
-
 .menu-toggle span {
   margin: 0 auto;
   position: relative;

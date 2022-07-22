@@ -1,13 +1,8 @@
-import "./App.css";
-import { Hero, Navbar } from "./components";
+import { Hero } from "./components";
+import React from "react";
 
-function App() {
-  return (
-    <div className="">
-      {/* <Navbar /> */}
-      <Hero />
-    </div>
-  );
-}
+const App = () => {
+  return <Hero />;
+};
 
 export default App;
