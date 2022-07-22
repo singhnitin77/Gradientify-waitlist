@@ -26,7 +26,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="bg-herobg bg-cover bg-no-repeat bg-center h-[100vh]">
+      <div className="bg-herobg bg-cover bg-no-repeat bg-center min-h-[100vh]">
         <div className="px-[40px] py-[30px]">
           <Navbar />
           <div className="lg:w-[70%] mx-auto">
