@@ -12,12 +12,9 @@ const Hero = () => {
       return toast.error("Please enter email");
     }
     try {
-      setLoading(true);
       const { data } = await axios.post("/api/email", { email });
-      setLoading(false);
       toast.success("Subscribed successfully");
     } catch (err) {
-      setLoading(false);
       toast.error(
         err.response && err.response.data.message
           ? err.response.data.message
