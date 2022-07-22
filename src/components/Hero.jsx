@@ -11,6 +11,7 @@ const Hero = () => {
     if (!email) {
       return toast.error("Please enter email");
     }
+
     try {
       const { data } = await axios.post("/api/email", { email });
       toast.success("Subscribed successfully");
