@@ -34,11 +34,11 @@ const Hero = () => {
             <h1 className="text-white mt-[110px] lg:text-[60px] md:text-[54px] text-[36px] leading-[1.1] tracking-normal font-Epilogue font-extrabold text-center mb-[24px]">
               Find the Perfect gradient for your next projects
             </h1>
-            <p className="md:text-[20px] text-[18px] font-Epilogue font-regular text-center text-[#B5C0CC] leading-[1.2]">
-              Gradientify is an all-in-one tool that gives you access to 100+
-              carefully crafted gradients, generates gradients from an image,
-              creates your own gradient, and easily makes tints and shades of a
-              single color.
+            <p className="md:text-[20px] text-[18px] font-Epilogue font-regular text-center text-[#B5C0CC] leading-[1.25]">
+              Gradientify is a web-based all-in-one gradient editor that gives
+              you access to 100+ trendy and beautiful gradients for your next
+              projects, Copy CSS Snippet, Download PNGs, generates gradient from
+              an image, and easily make tints and shades of a single color.
             </p>
             <form
               action=""
@@ -49,7 +49,7 @@ const Hero = () => {
               <input
                 type="email"
                 className="w-full flex-1 rounded-md border border-dark-900/70 bg-light-100 p-3 text-lg outline-none transition duration-300 focus:border-blue text-Epilogue text-[20px] font-medium placeholder:text-Epilogue"
-                placeholder="hello@gmail.com"
+                placeholder="Johndoe@gmail.com"
                 onChange={(e) => setEmail(e.target.value)}
               />
               <button
