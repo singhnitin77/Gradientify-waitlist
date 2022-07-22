@@ -1,40 +1,18 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const mg = require("mailgun-js");
+const cors = require("cors");
 const nodemailer = require("nodemailer");
-const { default: Email } = require("./models/email");
-const { google } = "googleapis";
+const { connectDB } = require("./config/db");
+const { Email } = require("./models/email");
+const { google } = require("googleapis");
 
 dotenv.config();
-
-const mailgun = () =>
-  mg({
-    apiKey: process.env.MAILGUN_API_KEY,
-    domain: process.env.MAILGUN_DOMAIN,
-  });
+connectDB();
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-// app.post("/api/email", (req, res) => {
-//   const { email } = req.body;
-//   mailgun()
-//     .messages()
-//     .send(
-//       {
-//         from: "John Doe <john@mg.yourdamain.com>",
-//         to: `${email}`,
-//         html: `<p> Early Access Subscription </p>`,
-//       },
-//       (error, body) => {
-//         if (error) {
-//           console.log(error);
-//           res.status(500).send({ message: "Error in sending email" });
-//         }
-//       }
-//     );
-// });
 
 //ids to be used
 const CLIENT_ID =
@@ -42,7 +20,7 @@ const CLIENT_ID =
 const CLEINT_SECRET = "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";
 const REDIRECT_URI = "https://developers.google.com/oauthplayground";
 const REFRESH_TOKEN =
-  "1//04uNBWuGUiqkgCgYIARAAGAQSNwF-L9IrSHk4_PyKmals0Lg1-6wKzmpOEHvzpQLFmIPkxLlUxbx2fKEkff-Agi87zkAy9bXW3yE";
+  "1//04y0EPNipT0reCgYIARAAGAQSNwF-L9Ir3V0tmM-Zr_A4z3tvoMS9XBZxAw94254m9A_SSs44fxgbyr280X3AIEbZ1yG_6FV3qm4";
 
 app.post("/api/email", async (req, res) => {
   try {

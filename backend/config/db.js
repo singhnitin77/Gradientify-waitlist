@@ -1,7 +1,6 @@
-import mongoose from "mongoose";
-import path from "path";
+const mongoose = require("mongoose");
 
-const connectDB = async () => {
+exports.connectDB = async () => {
   try {
     const conn = await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
@@ -13,5 +12,3 @@ const connectDB = async () => {
     process.exit(1);
   }
 };
-
-export default connectDB;

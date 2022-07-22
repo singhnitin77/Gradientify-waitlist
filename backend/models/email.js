@@ -7,6 +7,4 @@ const emailSchema = new mongoose.Schema({
   },
 });
 
-const Email = mongoose.model("Email", emailSchema);
-
-module.exports = Email;
+exports.Email = mongoose.model("Email", emailSchema);
