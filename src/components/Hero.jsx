@@ -43,7 +43,7 @@ const Hero = () => {
             <form
               action=""
               onSubmit={submitHandler}
-              className="flex flex-col md:flex-row mt-[44px] w-[90%] md:w-[80%] mx-auto items-center justify-between gap-4"
+              className="flex flex-col md:flex-row mt-[44px] w-full md:w-[80%] mx-auto items-center justify-between gap-4"
             >
               {/* <label htmlFor="">Email</label> */}
               <input

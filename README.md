@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+<p align="center">
+<a href="https://www.gradientify.com/">
+<img src="public/apple-touch-icon.png" alt="Gradientify" width="125" height="125">
+</a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<a href="https://www.gradientify.com/">
+<img src="public/readme/gradientify-text.png" width="300"/>
+</a>
+</p>
 
-## Available Scripts
+<h3 align="center">The Web based Gradient editor built for everyone</h3>
 
-In the project directory, you can run:
+<p align="center">
+<a href="https://twitter.com/intent/tweet?text=Checkout%20desigerslobby.com%20by%20@thenitinsingh7%0A%0AWorld's%20biggest%20collection%20of%20Best%20design%20resources%20and%20tools%20all%20in%20one%20place,%20with%20amazing%20features.%20This%20is%20something%20you%20don't%20want%20to%20miss!">
+<img src="https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2Fsingnitin77%2FDesignersLobby"/>
+</a>
+</p>
 
-### `npm start`
+### Introducing Gradientify
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Gradientify is a web-based all-in-one gradient editor that gives you access to 100+ trendy and beautiful gradients for your next projects, Copy CSS Snippet, Download PNGs, generates gradient from an image, and easily make tints and shades of a single color.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Read Blog]()
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="https://www.gradientify.com/">
+<img src="public/readme/gradientify-banner.png" width="1200"/>
+</a>
